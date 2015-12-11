@@ -40,8 +40,19 @@ p{
     margin: 0 auto;
 }
 
-div:not(#header){
+div:not(#header, .hint-div){
     position:relative;
     left: 15%;
 
+}
+
+.hint-div{
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+}
+
+#hint{
+    position: absolute;
+    display: none;
 }

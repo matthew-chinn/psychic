@@ -50,6 +50,10 @@ $(document).ready(function(){
 			gameClicked();
 		}
 	});
+
+    $('#hintButton').click(function(){
+        $('#hint').toggle();
+    });
 });
 
 var userAnswer = ""; //the user's "petition" or answer to question
